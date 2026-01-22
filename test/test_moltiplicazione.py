@@ -1,4 +1,4 @@
-from ..operazioni import moltiplicazione
+from operazioni import moltiplicazione
 
 def test_moltiplicazione_numeri_interi():
     # 2 * 3 = 6
