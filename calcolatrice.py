@@ -16,3 +16,7 @@ if __name__ == "__main__":
     print("Moltiplicazione 3 per 2:", calcolatrice("moltiplicazione", 2, 3)) # Output: None
     print("Operazione non valida:", calcolatrice("moltiplicazione", 2, 3)) # Output: None
 
+x = input("Inserisci il primo numero: ")
+y = input("Inserisci il secondo numero: ")
+print("Risultato della somma:", calcolatrice("somma", float(x), float(y)))
+print("Risultato della sottrazione:", calcolatrice("sottrazione", float(x), float(y)))

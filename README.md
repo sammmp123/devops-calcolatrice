@@ -47,3 +47,10 @@ pytest -v
 - git branch -M main
 - git remote add origin https://github.com/sammmp123
 - git push -u origin main
+
+## Docker build
+
+- docker build - f Dockerfile -t devops-calcolatrice-main:local . (compila file docker file)
+- docker run --rm -it devops-calcolatrice-main:local   (fa eseguire in modo interattivo dell'immagine che hai appena creato elimina automaticamente il container che crea)
+
+## Docker Hub upload

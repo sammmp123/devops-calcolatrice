@@ -7,3 +7,9 @@ __pycache__/
 .mypy_cache/
 .dist/
 .build/
+
+# Ignora test
+test/
+test_*.py/
+tests/
+*_test.py/
